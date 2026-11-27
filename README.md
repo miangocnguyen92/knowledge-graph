@@ -4,6 +4,7 @@ Turn any text into an **interactive knowledge graph**, automatically.
 
 The tool reads a document, extracts facts as **(subject → relation → object)** triples using NLP, and draws them as a graph you can drag, zoom, and explore in your browser. Drop a file into a folder and its graph appears.
 
+"Steve Jobs founded Apple in 1976. Apple is headquartered in Cupertino. Apple released the iPhone in 2007. Tim Cook succeeded Steve Jobs in 2011. Apple acquired Beats in 2014. Jimmy Iovine founded Beats."
 <img width="1165" height="853" alt="screenshot" src="https://github.com/user-attachments/assets/bb757d92-b14d-468e-a196-8f20be7ca7db" />
 
 ---
