@@ -1,0 +1,24 @@
+subject,relation,object
+NASA,found in,1958
+NASA,headquarter in,Washington
+Neil Armstrong,bear in,Ohio
+Neil Armstrong,join in,1962
+Neil Armstrong,join,NASA
+Neil Armstrong,command,Apollo 11
+Apollo 11,land on,Moon
+Apollo 11,land in,1969
+Buzz Aldrin,fly on,Apollo 11
+Elon Musk,found in,2002
+Elon Musk,found,SpaceX
+SpaceX,headquarter in,Texas
+SpaceX,develop,Falcon 9 rocket
+SpaceX,build,Dragon spacecraft
+NASA,hire in,2014
+NASA,hire,SpaceX
+Jeff Bezos,found in,2000
+Jeff Bezos,found,Blue Origin
+Blue Origin,base in,Kent
+Blue Origin,develop,New Shepard rocket
+European Space Agency,headquarter in,Paris
+European Space Agency,launch,Rosetta mission
+Rosetta,study,comet
