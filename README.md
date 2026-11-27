@@ -1,15 +1,14 @@
-# 🕸️ Knowledge Graph Generator
+# Knowledge Graph Generator
 
 Turn any text into an **interactive knowledge graph**, automatically.
 
 The tool reads a document, extracts facts as **(subject → relation → object)** triples using NLP, and draws them as a graph you can drag, zoom, and explore in your browser. Drop a file into a folder and its graph appears.
 
-![Knowledge graph example](graphs/screenshot.png)
-<!-- Tip: take a screenshot of one of your graphs, save it as graphs/screenshot.png -->
+<img width="1165" height="853" alt="screenshot" src="https://github.com/user-attachments/assets/bb757d92-b14d-468e-a196-8f20be7ca7db" />
 
 ---
 
-## ✨ Features
+## Features
 
 - **Two extraction methods**
   - `spacy`: classic NLP (named-entity recognition + dependency parsing). Free, offline, fast.
@@ -22,7 +21,7 @@ The tool reads a document, extracts facts as **(subject → relation → object)
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 Text  ──►  Extract triples  ──►  Build graph (NetworkX)  ──►  Interactive HTML + CSV
@@ -43,7 +42,7 @@ Text  ──►  Extract triples  ──►  Build graph (NetworkX)  ──►  
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 KnowledgeGraph/
@@ -56,7 +55,7 @@ KnowledgeGraph/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 git clone https://github.com/<your-username>/knowledge-graph.git
@@ -72,7 +71,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## 🧪 Usage
+## Usage
 
 ### 1. Run on the built-in sample text
 ```bash
@@ -85,13 +84,7 @@ Outputs `knowledge_graph.html` and `knowledge_graph_triples.csv`.
 python knowledge_graph.py --input mydoc.txt --out mygraph.html
 ```
 
-### 3. Use the LLM method (optional)
-```bash
-set ANTHROPIC_API_KEY=your_key_here      # Windows
-python knowledge_graph.py --input mydoc.txt --method llm
-```
-
-### 4. Auto mode: drop files into a folder
+### 3. Auto mode: drop files into a folder
 ```bash
 python auto_kg.py
 ```
@@ -103,7 +96,7 @@ Then drop any `.txt`, `.md`, `.pdf`, or `.docx` file into `inbox/`. The graph is
 | `--outdir` | `graphs` | Folder to save graphs |
 | `--no-open` | off | Don't open the browser automatically |
 
-### 5. Use it in Python / Jupyter
+### 4. Use it in Python / Jupyter
 ```python
 from auto_kg import draw_kg
 draw_kg("Apple was founded by Steve Jobs in Cupertino.")
@@ -111,7 +104,7 @@ draw_kg("Apple was founded by Steve Jobs in Cupertino.")
 
 ---
 
-## 🎨 Node Colors
+## Node Colors
 
 | Entity type | Color |
 |---|---|
@@ -124,24 +117,24 @@ draw_kg("Apple was founded by Steve Jobs in Cupertino.")
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - The spaCy method is rule-based, so it works best on short, factual sentences and can miss relations in complex or passive phrasing.
 - Coreference resolution is a simple heuristic (nearest matching entity), not a full model.
 - Entities with different spellings (e.g. *MAC* vs *MAC Cosmetics*) are not merged.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Entity merging / alias resolution
-- Support for more languages (e.g. Vietnamese)
+- Support for more languages (e.g. Vietnamese, Chinese, etc.)
 - A simple web UI for pasting text directly
 
 ---
 
 ## 🛠️ Tech Stack
 
-Python · spaCy · NetworkX · PyVis · Anthropic Claude API · pypdf · python-docx
+Python · spaCy · NetworkX · PyVis · pypdf · python-docx
 
-## 👤 Author
+## Author
 
-**Mia Nguyen**: [LinkedIn](https://www.linkedin.com/in/<your-profile>) · [Portfolio](https://<your-portfolio-link>)
+**Mia Nguyen**: [LinkedIn](https://www.linkedin.com/in/mianguyen92/) · [Portfolio](https://mia-nguyen-portfolio.lovable.app/)
