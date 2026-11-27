@@ -138,4 +138,4 @@ Python · spaCy · NetworkX · PyVis · pypdf · python-docx
 
 ## Author
 
-**Mia Nguyen**: [LinkedIn](https://www.linkedin.com/in/mianguyen92/) · [Portfolio](https://mia-nguyen-portfolio.lovable.app/)
+**Mia Nguyen**: [GitHub](https://github.com/miangocnguyen92) · [LinkedIn](https://www.linkedin.com/in/mianguyen92/) · [Portfolio](https://mia-nguyen-portfolio.lovable.app/)
