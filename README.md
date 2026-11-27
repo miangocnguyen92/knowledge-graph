@@ -59,7 +59,7 @@ KnowledgeGraph/
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/knowledge-graph.git
+git clone https://github.com/miangocnguyen92/knowledge-graph.git
 cd knowledge-graph
 
 python -m venv .venv
